@@ -19,7 +19,8 @@ class sierpinski(Scene):
         def sierpin(n, size, comb) -> VMobject:
             if n == 0:
                 t = Square().scale(size*1/10)
-                t.set_color([YELLOW, BLACK])
+                # t.set_color([YELLOW, BLACK])
+                t.set_color(YELLOW)
                 # e = [point[0]+size, point[1], 0]
                 # f = [point[0], point[1]+size/2, 0]
                 # t.set_color_by_gradient(WHITE, BLACK)
